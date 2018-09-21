@@ -1,0 +1,41 @@
+  #######################################################################################
+  #######################################################################################
+  #######################################################################################
+  #####                                                                             #####
+  #####                         DriftHunt+ 2.5                                      #####
+  #####                       Created By Driftay                                    #####
+  #####                                                                             #####
+  #######################################################################################
+  #######################################################################################
+  #######################################################################################
+#<---------------------->NOTES<---------------------->#
+#All Color Codes Can Be Used!
+#Refer to: https://wiki.ess3.net/mc/
+#<---------------------->NOTES<---------------------->#
+
+
+
+Drift-Hunt:
+    WorldBorderSize: 10000
+
+    DefaultWorld: world #this is the worlds name
+
+
+
+#Dont Touch this Section!
+    chest:
+        x: 0
+        y: 0
+        z: 0
+#Don't Touch this Section!
+
+    commands:
+        - tell %player% congrats!
+
+    messages:
+        usage: '&f[&bDrift&cCore&f] &7/dhunt &8[&7start&8/&7stop&8/&7go&8/&7info&8]'
+        nopermission: '&f[&bDrift&cCore&f] &c&lYou do not have access to this!'
+        chesttp: '&f[&bDrift&cCore&f] &7You have been teleported to the &b&lHunt &7chest!'
+        cantbreak: '&f[&bDrift&cCore&f] &4&lYou cannot break this!'
+        alreadyactive: '&f[&bDrift&cCore&f] &4&lAlready active!'
+        stopped: '&f[&bDrift&cCore&f] &4&lThe &b&lHunt &4&lhas been stopped!'
